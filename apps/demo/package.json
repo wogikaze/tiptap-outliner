@@ -1,0 +1,26 @@
+{
+  "name": "tiptap-outliner-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "e2e": "playwright test"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
+    "typescript": "^5.5.4",
+    "vite": "^5.3.4",
+    "vitest": "^1.6.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "playwright": "^1.45.3"
+  }
+}

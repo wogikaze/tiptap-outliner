@@ -1,0 +1,13 @@
+:root { /* dark theme baseline */
+    --ol-bg: #0f1115;
+    --ol-fg: #e6e6e6;
+    --ol-muted: #9aa4b2;
+    --ol-accent: #5eead4;
+    --ol-focus: #93c5fd;
+}
+
+.outliner-root { color: var(--ol-fg); background: var(--ol-bg); }
+.outliner-item { list-style: none; }
+.outliner-item .disclosure-triangle { background: transparent; color: var(--ol-muted); border: none; cursor: pointer; }
+.outliner-item [data-collapsed="true"] .outliner-item-children { display: none; }
+.outliner-item:focus-within { outline: 2px solid var(--ol-focus); outline-offset: 2px; }
